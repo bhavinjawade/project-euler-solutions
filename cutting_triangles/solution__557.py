@@ -1,0 +1,24 @@
+
+# -*- coding: utf-8 -*-
+'''
+    File name: cutting_triangles\solution__557.py
+    Author: Vaidic Joshi
+    Date created: Oct 18, 2018
+    Python Version: 3.x
+'''
+
+# Solution to Project Euler Problem #557 :: Cutting triangles
+# 
+# For more information see:
+# https://projecteuler.net/problem=557
+
+# Problem Statement 
+'''
+b'A triangle is cut into four pieces by two straight lines, each starting at one vertex and ending on the opposite edge. This results in forming three smaller triangular pieces, and one quadrilateral.  If the original triangle has an integral area, it is often possible to choose cuts such that all of the four pieces also have integral area.  For example, the diagram below shows a triangle of area 55 that has been cut in this way.\n\n\n\nRepresenting the areas as a, b, c and d, in the example above, the individual areas are a = 22, b = 8, c = 11 and d = 14.  It is also possible to cut a triangle of area 55 such that a = 20, b = 2, c = 24, d = 9.\n\nDefine a triangle cutting quadruple (a, b, c, d) as a valid integral division of a triangle, where a is the area of the triangle between the two cut vertices, d is the area of the quadrilateral and b and c are the areas of the two other triangles, with the restriction that b \xe2\x89\xa4 c.  The two solutions described above are (22,8,11,14) and (20,2,24,9).  These are the only two possible quadruples that have a total area of 55.\n\n\nDefine S(n) as the sum of the area of the uncut triangles represented by all valid quadruples with a+b+c+d \xe2\x89\xa4 n. For example, S(20) = 259.  \n\n\nFind S(10000).'
+'''
+
+# Solution 
+
+# Solution Approach 
+'''
+'''

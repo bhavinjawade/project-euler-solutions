@@ -1,0 +1,24 @@
+
+# -*- coding: utf-8 -*-
+'''
+    File name: jumping_frog\solution__490.py
+    Author: Vaidic Joshi
+    Date created: Oct 18, 2018
+    Python Version: 3.x
+'''
+
+# Solution to Project Euler Problem #490 :: Jumping frog
+# 
+# For more information see:
+# https://projecteuler.net/problem=490
+
+# Problem Statement 
+'''
+b'There are n stones in a pond, numbered 1 to n. Consecutive stones are spaced one unit apart.\n\nA frog sits on stone 1. He wishes to visit each stone exactly once, stopping on stone n. However, he can only jump from one stone to another if they are at most 3 units apart. In other words, from stone i, he can reach a stone j if 1 \xe2\x89\xa4 j \xe2\x89\xa4 n and j is in the set {i-3, i-2, i-1, i+1, i+2, i+3}.\n\nLet f(n) be the number of ways he can do this. For example, f(6) = 14, as shown below:\n1 \xe2\x86\x92 2 \xe2\x86\x92 3 \xe2\x86\x92 4 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 2 \xe2\x86\x92 3 \xe2\x86\x92 5 \xe2\x86\x92 4 \xe2\x86\x92 6 \n1 \xe2\x86\x92 2 \xe2\x86\x92 4 \xe2\x86\x92 3 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 2 \xe2\x86\x92 4 \xe2\x86\x92 5 \xe2\x86\x92 3 \xe2\x86\x92 6 \n1 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 3 \xe2\x86\x92 4 \xe2\x86\x92 6 \n1 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 4 \xe2\x86\x92 3 \xe2\x86\x92 6 \n1 \xe2\x86\x92 3 \xe2\x86\x92 2 \xe2\x86\x92 4 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 3 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 4 \xe2\x86\x92 6 \n1 \xe2\x86\x92 3 \xe2\x86\x92 4 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 3 \xe2\x86\x92 5 \xe2\x86\x92 2 \xe2\x86\x92 4 \xe2\x86\x92 6 \n1 \xe2\x86\x92 4 \xe2\x86\x92 2 \xe2\x86\x92 3 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 4 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 3 \xe2\x86\x92 6 \n1 \xe2\x86\x92 4 \xe2\x86\x92 3 \xe2\x86\x92 2 \xe2\x86\x92 5 \xe2\x86\x92 6 \n1 \xe2\x86\x92 4 \xe2\x86\x92 5 \xe2\x86\x92 2 \xe2\x86\x92 3 \xe2\x86\x92 6\n\nOther examples are f(10) = 254 and f(40) = 1439682432976.\n\nLet S(L) = \xe2\x88\x91 f(n)3 for 1 \xe2\x89\xa4 n \xe2\x89\xa4 L.\nExamples:\nS(10) = 18230635\nS(20) = 104207881192114219\nS(1 000) mod 109 = 225031475\nS(1 000 000) mod 109 = 363486179\n\nFind S(1014) mod 109.'
+'''
+
+# Solution 
+
+# Solution Approach 
+'''
+'''
