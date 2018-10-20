@@ -1,0 +1,32 @@
+
+# -*- coding: utf-8 -*-
+'''
+    File name: code\roots_on_the_rise\sol_479.py
+    Author: Vaidic Joshi
+    Date created: Oct 20, 2018
+    Python Version: 3.x
+'''
+
+# Solution to Project Euler Problem #479 :: Roots on the Rise
+# 
+# For more information see:
+# https://projecteuler.net/problem=479
+
+# Problem Statement 
+'''
+Let ak, bk, and ck represent the three solutions (real or complex numbers) to the expression 1/x = (k/x)2(k+x2) - kx.
+
+For instance, for k = 5, we see that {a5, b5, c5} is approximately {5.727244, -0.363622+2.057397i, -0.363622-2.057397i}.
+
+Let S(n) = Σ (ak+bk)p(bk+ck)p(ck+ak)p for all integers p, k such that 1 ≤ p, k ≤ n. 
+
+Interestingly, S(n) is always an integer. For example, S(4) = 51160.
+
+Find S(106) modulo 1 000 000 007.
+'''
+
+# Solution 
+
+# Solution Approach 
+'''
+'''
